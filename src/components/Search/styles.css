@@ -1,0 +1,23 @@
+.search input {
+  font: inherit;
+  font-size: 1rem;
+  padding-left: 10px;
+  margin: 0;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  max-width: 80vw;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.search button {
+  background-color: blue;
+  border: none;
+  color: white;
+  font: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 17px 20px;
+  border-radius: 10px;
+}

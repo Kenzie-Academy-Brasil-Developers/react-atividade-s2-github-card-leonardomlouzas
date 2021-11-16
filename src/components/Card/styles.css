@@ -1,0 +1,37 @@
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_link {
+  margin: 50px 25px;
+  text-align: start;
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.card img {
+  margin: auto 25px;
+  max-width: 50px;
+  max-height: 50px;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+}
+
+.card .title {
+  flex-grow: 3;
+}
+
+.card .info {
+  margin-right: 25px;
+}
