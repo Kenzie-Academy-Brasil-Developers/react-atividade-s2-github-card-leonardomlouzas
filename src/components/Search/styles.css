@@ -21,3 +21,10 @@
   padding: 17px 20px;
   border-radius: 10px;
 }
+
+.empty {
+  font-size: 0.7rem;
+  margin-left: 5px;
+  color: red;
+  text-align: left;
+}

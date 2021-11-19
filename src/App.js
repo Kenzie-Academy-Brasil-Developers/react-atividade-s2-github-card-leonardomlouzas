@@ -8,6 +8,7 @@ function App() {
 
   const [dados, setDados] = useState({});
   const [error, setError] = useState(false);
+
   function onClick(data) {
     axios
       .get(`https://api.github.com/repos/${data}`)
@@ -25,6 +26,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Search onClick={onClick} />
+
         {dados.name ? (
           <Card name={dados.name} description={dados.description} html_url={dados.html_url} img_url={dados.owner.avatar_url} />
         ) : (error ? (<div className="error">Página não encontrada.</div>) : (<div></div>))}

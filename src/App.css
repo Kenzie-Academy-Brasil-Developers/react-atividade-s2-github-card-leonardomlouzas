@@ -55,5 +55,6 @@ html {
 }
 
 .error {
+  margin-top: 5vw;
   color: red;
 }
